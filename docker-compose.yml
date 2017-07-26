@@ -6,5 +6,5 @@ services:
       context: .
       dockerfile: Dockerfile.configserver
     ports: 
-      - "8761:8761"
+      - "8888:8888"
     network_mode: host
