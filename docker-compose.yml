@@ -1,0 +1,10 @@
+# Docker compose to build and run the read service
+version: '2'
+services:
+  read-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.configserver
+    ports: 
+      - "8761:8761"
+    network_mode: host
