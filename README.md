@@ -7,8 +7,12 @@ Spring Cloud Config provides server and client-side support for externalized con
 
 Build the server:
 
+----
 $ git clone https://github.com/sasikumar-sugumar/CloudConfigServer.git
 $ mvn clean install
+----
 
 Build and run the container
+----
 $ docker-compose up -d
+----
